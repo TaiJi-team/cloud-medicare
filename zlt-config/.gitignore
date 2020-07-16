@@ -1,0 +1,13 @@
+.settings
+.classpath
+.factorypath
+.project
+
+./zlt-gateway/.settings
+./zlt-job/.settings
+./zlt-monitor/.settings
+./zlt-register/.settings
+./zlt-transaction/.settings
+./zlt-uaa/.settings
+./zlt-web/.settings
+

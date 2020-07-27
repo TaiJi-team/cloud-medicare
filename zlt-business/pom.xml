@@ -18,5 +18,7 @@
         <module>code-generator</module>
         <!-- 搜索中心 -->
         <module>search-center</module>
+        <!-- 医疗数据采集 -->
+        <module>medicare-center</module>
     </modules>
 </project>

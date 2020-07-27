@@ -73,6 +73,12 @@ spring:
             - Path=/api-search/**
           filters:
             - StripPrefix=1
+        - id: medicare
+          uri: lb://medicare-center
+          predicates:
+            - Path=/api-medicare/**
+          filters:
+            - StripPrefix=1
 #    sentinel:
 #      datasource.ds1.nacos:
 #        server-addr: ${spring.cloud.nacos.server-addr}
@@ -99,7 +105,8 @@ zlt:
         /api-uaa/images/**,
         /api-uaa/js/**,
         /login.html,
-        /user/login
+        /user/login,
+        /api-medicare/**
     auth:
       urlPermission:
         #是否开启url级别权限

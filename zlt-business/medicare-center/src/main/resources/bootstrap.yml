@@ -1,0 +1,11 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: medicare-center
+#  cloud:
+#    nacos:
+#      discovery:
+#        metadata:
+#          version: zlt

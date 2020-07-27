@@ -14,7 +14,7 @@ docker run -d --name redis -p 6379:6379 -v /home/yuan/docker/redis/config:/etc/r
 
 
 by ${USER}
-docker run -d --name redis -p 6379:6379 -v /home/${USER}/docker/redis/config:/etc/redis -v /home/${USER}/data/docker/redis/data:/data redisdocker run -d --name redis -p 6379:6379 -v /home/${USER}/docker/redis/config:/etc/redis -v /home/${USER}/data/docker/redis/data:/data redis
+docker run -d --name redis -p 6379:6379 -v /home/${USER}/docker/redis/config:/etc/redis -v /home/${USER}/data/docker/redis/data:/data redis:latest
 docker run -d -p 8848:8848 -e MODE=standalone -v /home/${USER}/data/docker/nacos/init.d/custom.properties:/home/nacos/init.d/custom.properties -v /home/${USER}/data/docker/nacos/logs:/home/nacos/logs --name nacos nacos/nacos-server
 
 # nacos by compose

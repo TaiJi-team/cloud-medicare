@@ -8,5 +8,7 @@ target
 .settings/
 .git/
 .project
-
-
+.factorypath
+zlt-uaa/.factorypath
+zlt-gateway/sc-gateway/.factorypath
+zlt-commons/zlt-auth-client-spring-boot-starter/.factorypath

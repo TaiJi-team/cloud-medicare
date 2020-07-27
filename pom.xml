@@ -435,7 +435,7 @@
         <!-- 前端 -->
         <module>zlt-web</module>
         <!-- 监控 -->
-        <module>zlt-monitor</module>
+        <!-- <module>zlt-monitor</module> -->
         <!-- 配置 -->
         <module>zlt-config</module>
         <!-- 事务 -->
